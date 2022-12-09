@@ -11,7 +11,7 @@ public class AuditorAwareImpl implements AuditorAware<String> {
 	@Override
 	public Optional<String> getCurrentAuditor() {
 		// Set a hard-coded user as a fallback option
-		String user = "system";
+		String user = "system out";
 		return Optional.of(user);
 	}
 }
